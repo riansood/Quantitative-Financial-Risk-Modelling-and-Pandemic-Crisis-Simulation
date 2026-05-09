@@ -19,7 +19,7 @@ The tool combines historical data analysis, risk computation, and
 predictive modelling to simulate portfolio value trajectories and 
 sectoral resilience across two interactive tabs:
 
-### Tab 1 — Sector Analysis
+### Tab 1 - Sector Analysis
 - Computes and visualises rolling Beta, volatility and cumulative 
   abnormal returns (CAR)
 - Analyses sector behaviour across three pandemic phases: 
@@ -27,7 +27,7 @@ sectoral resilience across two interactive tabs:
 - Supports both India and USA markets
 - Outputs rolling β & σ plots, CAR plots and period summary tables
 
-### Tab 2 — Portfolio Prediction
+### Tab 2 - Portfolio Prediction
 - Runs a Random Forest model trained on CAPM-based expected returns
 - Simulates future portfolio value paths for each sector
 - Input your own portfolio start value and see predicted evolution
@@ -70,13 +70,13 @@ Follow the URL shown in the terminal to open the tool in your browser.
 
 ## Key Concepts
 
-- **β (Beta)** — measures how tied a sector is to the overall market. 
+- **β (Beta)** - measures how tied a sector is to the overall market. 
   A spike in March 2020 means less diversification when it mattered most.
-- **σ (Volatility)** — doubling means much larger day-to-day swings 
+- **σ (Volatility)** - doubling means much larger day-to-day swings 
   and higher total risk.
-- **CAR** — cumulative abnormal returns. Negative CAR during the shock 
+- **CAR** - cumulative abnormal returns. Negative CAR during the shock 
   means the sector underperformed even after adjusting for risk.
-- **κ (Kappa)** — how much volatility expanded in the crisis. 
+- **κ (Kappa)** - how much volatility expanded in the crisis. 
   κ=2.1 means volatility more than doubled.
 
 ## Outputs
@@ -89,7 +89,7 @@ All outputs saved to `/output`:
 
 ## Limitations
 
-- Assumes linear CAPM relationship — ignores non-linear and 
+- Assumes linear CAPM relationship - ignores non-linear and 
   sentiment-driven effects
 - Trained on 2019-2023 data only
 - Uses only four features per model
